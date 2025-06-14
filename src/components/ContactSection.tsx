@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin } from 'lucide-react';
@@ -20,7 +19,7 @@ const ContactSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Mail className="h-6 w-6 text-accent" />
-                  <a href="mailto:info@genomix.com" className="text-foreground/80 hover:text-primary transition-colors">info@genomix.com</a>
+                  <a href="mailto:info@kreemgenomic.com" className="text-foreground/80 hover:text-primary transition-colors">info@kreemgenomic.com</a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-6 w-6 text-accent" />
